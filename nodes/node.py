@@ -12,7 +12,7 @@ class Node:
     # - child_id
     # - set(child_id)
     #
-    def add_to_children_ids(self, param): 
+    def add_to_children(self, param): 
         if isinstance(param, set):
             self._children_ids.update(param)
         else:
